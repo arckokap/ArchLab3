@@ -5,3 +5,11 @@ YEP
 
 YEP YEP  
 ![image](https://user-images.githubusercontent.com/118390492/207937739-9ba583ef-9ea6-4c70-836f-629a5f889e80.png)
+
+
+Pinakakia apo to deutero bhma to 1.
+
+|Spec_type|Area| Subthreshold Leakage | Gate Leakage | Runtime Dynamic|
+|---|----| --- | --- | --- |
+|0 |5.00299 |0.791287|0.00470731|0.067803|
+|1 | 
