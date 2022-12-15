@@ -9,7 +9,19 @@ YEP YEP
 
 Pinakakia apo to deutero bhma to 1.
 
-|Spec_type|Area| Subthreshold Leakage | Gate Leakage | Runtime Dynamic|
+|Spec_type_core|Area| Subthreshold Leakage | Gate Leakage | Runtime Dynamic|
 |---|----| --- | --- | --- |
 |0 |5.00299 |0.791287|0.00470731|0.067803|
-|1 | 
+|1 | 12.1022|1.77429|0.0132956|0.401508|
+|2 |12.3571|1.25637 |0.00808866|0.429258|
+|3|7.97371|0.941565|0.00571538|0.324594|
+
+
+
+
+|Spec_type_L2|Area| Subthreshold Leakage | Gate Leakage | Runtime Dynamic|
+|---|----| --- | --- | --- |
+|0|1.94357|0.00135763|0.000183814|0.00508227|
+|1|12.877|0.00887322|0.00107583|0.0186748|
+|2|13.1532|0.00921368|0.00112022|0.0139975|
+|3|2.12555|0.00148306|0.000201415|0.00886602|
