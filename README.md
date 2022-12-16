@@ -1,5 +1,14 @@
 # ArchLab3
 
+### Βήμα 1ο
+
+Η ισχύς που καταναλώνει η CPU χωρίζεται σε dynamic και leakage power.
+*Dynamic* 
+
+
+
+
+
 YEP  
 ![image](https://user-images.githubusercontent.com/118390492/207936630-ec59699a-c56b-4289-88be-42a19c61abc2.png)
 
