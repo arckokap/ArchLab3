@@ -38,6 +38,8 @@
 
 Όπου * = {bzip,hmmer,libm,mcf,sjeng} και ** = {bzip,hmmer,libm,mcf}.
 
+Η κατανάλωση ενέργειας για όλες τις περιπτώσεις για το core και για την L2 φαίνεται στα παρακάτω πινακάκια.  
+
 ## Core
 |Spec_type_core|Area (mm²)| Subthreshold Leakage (W)| Gate Leakage (W)|
 |---|----| --- | --- |
@@ -45,7 +47,7 @@
 |1 | 12.1022|1.77429|0.0132956|
 |2 |12.3571|1.25637 |0.00808866|
 |3|7.97371|0.941565|0.00571538|
-|3_jeng|28.1693|1.99692|0.0125489|
+|3_sjeng|28.1693|1.99692|0.0125489|
 
 #### Runtime Dynamic (W)
 |Spec_type_core| specbzip |spechmmer|speclibm|specmcf|specsjeng|
@@ -72,12 +74,12 @@
 |2|0.0139975|0.00101353|0.015055|0.00160801|0.0181217|
 |3|0.00886602|0.00168049|0.0081906|0.00090845|0.018908|
 
+### 2.  
 
-
-YEP  
+Γράφημα του peak power σε σχέση με τα διαφορετικά cache size, associativity, block size για το specbzip.  
 ![image](https://user-images.githubusercontent.com/118390492/207936630-ec59699a-c56b-4289-88be-42a19c61abc2.png)
 
-YEP YEP  
+Γράφημα του peak power σε σχέση με τα διαφορετικά cache size, associativity, block size για το specsjeng.  
 ![image](https://user-images.githubusercontent.com/118390492/207937739-9ba583ef-9ea6-4c70-836f-629a5f889e80.png)
 
 
