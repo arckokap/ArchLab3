@@ -25,9 +25,21 @@
 ### 1.
 Υλοποίησαμε ένα function σε fish shell (βρίσκεται στο [script.txt]).
 
+Υπενθυμίζουμε τα χαρακτηριστικά των CPUs που σχεδιάσαμε.
+
+### Cpus
+|Benchmarks|L1 icache size|L1 icache associativity| L1 dcache size|L1 dcache associativity|L2 cache size|L2 cache associativity| cache line size|
+|--|--|--|--|--|--|--|--|
+|spec*\_0|64kB|1|32kB|1|512kB|2|32|
+|spec*\_1|64kB|1|128kB|1|4MB|2|64|
+|spec*\_2|64kB|4|128kB|4|4MB|16|64|
+|spec**\_3|32kB|8|32kB|8|512kB|8|64|
+|specsjeng\_3|128kB|16|128kB|16|1MB|16|128|
+
+Όπου * = {bzip,hmmer,libm,mcf,sjeng} και ** = {bzip,hmmer,libm,mcf}.
 
 ## Core
-|Spec_type_core|Area| Subthreshold Leakage | Gate Leakage |
+|Spec_type_core|Area (mm²)| Subthreshold Leakage (W)| Gate Leakage (W)|
 |---|----| --- | --- |
 |0 |5.00299 |0.791287|0.00470731|
 |1 | 12.1022|1.77429|0.0132956|
@@ -35,7 +47,7 @@
 |3|7.97371|0.941565|0.00571538|
 |3_jeng|28.1693|1.99692|0.0125489|
 
-#### Runtime Dynamic
+#### Runtime Dynamic (W)
 |Spec_type_core| specbzip |spechmmer|speclibm|specmcf|specsjeng|
 |--------------|----------|---------|--------|-------|---------|
 |0|0.067803|0.10983|0.026606|0.109616|0.0125405|
@@ -44,7 +56,7 @@
 |3|0.324594|0.412912|0.172345|0.390049|0.892275|
 
 ## Total L2s
-|Spec_type_L2|Area| Subthreshold Leakage | Gate Leakage |
+|Spec_type_core|Area (mm²)| Subthreshold Leakage (W)| Gate Leakage (W)|
 |---|----| --- | --- |
 |0|1.94357|0.00135763|0.000183814|
 |1|12.877|0.00887322|0.00107583|
@@ -52,7 +64,7 @@
 |3|2.12555|0.00148306|0.000201415|
 |3_jeng|18.4945|0.00993114|0.00215143|
 
-#### Runtime Dynamic
+#### Runtime Dynamic (W)
 |Spec_type_core| specbzip |spechmmer|speclibm|specmcf|specsjeng|
 |--------------|----------|---------|--------|-------|---------|
 |0|0.00508227|0.00254537 |0.00446755| 0.00147971| 0.00500695|
@@ -68,16 +80,7 @@ YEP
 YEP YEP  
 ![image](https://user-images.githubusercontent.com/118390492/207937739-9ba583ef-9ea6-4c70-836f-629a5f889e80.png)
 
-### Cpus
-|Benchmarks|L1 icache size|L1 icache associativity| L1 dcache size|L1 dcache associativity|L2 cache size|L2 cache associativity| cache line size|
-|--|--|--|--|--|--|--|--|
-|spec*\_0|64kB|1|32kB|1|512kB|2|32|
-|spec*\_1|64kB|1|128kB|1|4MB|2|64|
-|spec*\_2|64kB|4|128kB|4|4MB|16|64|
-|spec**\_3|32kB|8|32kB|8|512kB|8|64|
-|specsjeng\_3|128kB|16|128kB|16|1MB|16|128|
 
-Όπου * = {bzip,hmmer,libm,mcf,sjeng} και ** = {bzip,hmmer,libm,mcf}.
 
 
 
