@@ -80,14 +80,28 @@
 ![image](https://user-images.githubusercontent.com/118390492/207936630-ec59699a-c56b-4289-88be-42a19c61abc2.png)  
 
 **Case 1 (from 0 --> 1)**  
-Από τον επεξεργαστή 0 στον επεξεργαστή 1 τα associativities είναι ίδια, ενώ αυξάνουμε τα cache sizes (L1d\*4 L2\*8) και το cache line size από 32 σε 64. Παρατηρούμε πως αυξάνοντας αυτά αυξάνεται αρκετά το peak power.
+Από τον επεξεργαστή 0 στον επεξεργαστή 1 τα associativities είναι ίδια, ενώ αυξάνουμε τα cache sizes (L1d\*4 L2\*8) και το cache line size από 32 σε 64. Παρατηρούμε πως αυξάνοντας αυτά αυξάνεται αρκετά το peak power.  
 
-**Case 1 (from 1 --> 2)**  
-Από τον 1 στον 2 τα cache sizes και το cache line size είναι ίδια, ενώ αυξάνουμε το associativity (L1d_assoc\*4 L1i_assoc\*4 L2_assoc\*8). Παρατηρούμε πως το peak power μειώνεται λίγο.
+**Case 2 (from 1 --> 2)**  
+Από τον 1 στον 2 τα cache sizes και το cache line size είναι ίδια, ενώ αυξάνουμε το associativity (L1d_assoc\*4 L1i_assoc\*4 L2_assoc\*8). Παρατηρούμε πως το peak power μειώνεται λίγο.  
+
+**Case 3 (from 2 --> 3)**  
+Από τον 2 στον 3 για να μειωθεί το κόστος και το peak power μειώνουμε το L1d_size από 128kB σε 64 kB και το L2_size από 4MB σε 512kB. Για να μειώσουμε το κόστος μειώνουμε το associativity της L1 (L1d_assoc/2 L1i_assoc/2).  
+
+Τα γραφήματα για τα spechmmer, speclibm και specmcf είναι ίδια με του specbzip αφού σε όλους του επεξεργαστές χρησιμοποιήθηκαν τα ίδια χαρακτηριστικά και επομένως βλέπουμε πως το peak power δεν αλλάζει ανά πρόγραμμα αλλά μόνο ανά επεξεργαστή.  
 
 
 Γράφημα του peak power σε σχέση με τα διαφορετικά cache size, associativity, block size για το specsjeng.  
-![image](https://user-images.githubusercontent.com/118390492/207937739-9ba583ef-9ea6-4c70-836f-629a5f889e80.png)
+![image](https://user-images.githubusercontent.com/118390492/207937739-9ba583ef-9ea6-4c70-836f-629a5f889e80.png)  
+Στο specsjeng στον τελευταίο επεξεργαστή χρησιμοποιήσαμε την πιο ακριβή περίπτωση σε υλικό (εξαντλήσαμε τους πόρους που μπορούσαν να χρησιμοποιηθούν αγνοώντας το κόστος και κυνηγώντας την επίδοση). Αυτό οδήγησε σε δραματική αύξηση του peak power όπως φαίνεται στο παραπάνω γράφημα.  
+
+### 3.  
+
+
+
+
+### Πιθανοί λόγοι σφάλματος των αποτελεσμάτων  
+
 
 
 ##### Sources
