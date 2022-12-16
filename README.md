@@ -77,12 +77,19 @@
 ### 2.  
 
 Γράφημα του peak power σε σχέση με τα διαφορετικά cache size, associativity, block size για το specbzip.  
-![image](https://user-images.githubusercontent.com/118390492/207936630-ec59699a-c56b-4289-88be-42a19c61abc2.png)
+![image](https://user-images.githubusercontent.com/118390492/207936630-ec59699a-c56b-4289-88be-42a19c61abc2.png)  
+
+**Case 1 (from 0 --> 1)**  
+Από τον επεξεργαστή 0 στον επεξεργαστή 1 τα associativities είναι ίδια, ενώ αυξάνουμε τα cache sizes (L1d\*4 L2\*8) και το cache line size από 32 σε 64. Παρατηρούμε πως αυξάνοντας αυτά αυξάνεται αρκετά το peak power.
+
+**Case 1 (from 1 --> 2)**  
+Από τον 1 στον 2 τα cache sizes και το cache line size είναι ίδια, ενώ αυξάνουμε το associativity (L1d_assoc\*4 L1i_assoc\*4 L2_assoc\*8). Παρατηρούμε πως το peak power μειώνεται λίγο.
+
 
 Γράφημα του peak power σε σχέση με τα διαφορετικά cache size, associativity, block size για το specsjeng.  
 ![image](https://user-images.githubusercontent.com/118390492/207937739-9ba583ef-9ea6-4c70-836f-629a5f889e80.png)
 
 
-
+##### Sources
 [wikipedia](https://en.wikipedia.org/wiki/Processor_power_dissipation#cite_note-11)
 
