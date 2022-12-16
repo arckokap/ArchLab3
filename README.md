@@ -35,7 +35,12 @@
 |3|7.97371|0.941565|0.00571538|0.324594|
 |3_jeng|28.1693|1.99692|0.0125489|0.892275|
 
-
+#### Runtime Dynamic
+|Spec_type_core| specbzip |spechmmer|speclibm|specmcf|specsjeng|
+|0|0.067803|0.10983|0.026606|0.109616|0.0125405|
+|1|0.401508|
+|2|0.429258
+|3|0.324594
 
 
 |Spec_type_L2|Area| Subthreshold Leakage | Gate Leakage | Runtime Dynamic|
@@ -45,6 +50,14 @@
 |2|13.1532|0.00921368|0.00112022|0.0139975|
 |3|2.12555|0.00148306|0.000201415|0.00886602|
 |3_jeng|18.4945|0.00993114|0.00215143|0.018908|
+
+
+|Spec_type_core| specbzip |spechmmer|speclibm|specmcf|specsjeng|
+|0|| |0.00446755| 0.00147971| 0.00500695|
+|1||
+|2||
+|3||
+
 
 
 YEP  
