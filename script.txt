@@ -1,0 +1,7 @@
+function Arch2
+           set arg $argv[1]
+           for val in (find ./ -name "$arg*")
+               ~/Desktop/mcpat/Scripts/GEM5ToMcPAT.py $val/stats.txt $val/config.json ~/Desktop/mcpat/mcpat/ProcessorDescriptionFiles/inorder_arm.xml -o $val/result_val.xml
+               ~/Desktop/mcpat/mcpat/mcpat -infile $val/result_val.xml -print_level 5 >$val/power.txt
+           end
+       end
