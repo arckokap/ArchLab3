@@ -26,7 +26,7 @@
 Υλοποίησαμε ένα function σε fish shell (βρίσκεται στο [script.txt]).
 
 
-Core
+##Core
 |Spec_type_core|Area| Subthreshold Leakage | Gate Leakage |
 |---|----| --- | --- |
 |0 |5.00299 |0.791287|0.00470731|
@@ -43,7 +43,7 @@ Core
 |2|0.429258|0.505588|0.203131|0.44999|0.129277|
 |3|0.324594|0.412912|0.172345|0.390049|0.892275|
 
-L2s
+##Total L2s
 |Spec_type_L2|Area| Subthreshold Leakage | Gate Leakage |
 |---|----| --- | --- |
 |0|1.94357|0.00135763|0.000183814|
