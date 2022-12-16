@@ -2,8 +2,8 @@
 
 ### Βήμα 1ο
 
-Η ισχύς που καταναλώνει η CPU χωρίζεται σε dynamic και leakage power.
-*Dynamic* 
+Η ισχύς που καταναλώνει η CPU χωρίζεται σε dynamic και leakage power.  
+**Dynamic**
 
 
 
