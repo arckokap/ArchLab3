@@ -82,5 +82,5 @@ YEP YEP
 
 
 
-![link](https://en.wikipedia.org/wiki/Processor_power_dissipation#cite_note-11)
+[wikipedia](https://en.wikipedia.org/wiki/Processor_power_dissipation#cite_note-11)
 
