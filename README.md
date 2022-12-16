@@ -105,5 +105,5 @@
 
 
 ##### Sources
-[wikipedia](https://en.wikipedia.org/wiki/Processor_power_dissipation#cite_note-11)
-
+1. [wikipedia](https://en.wikipedia.org/wiki/Processor_power_dissipation#cite_note-11)
+2. [power consumption](https://semiengineering.com/knowledge_centers/low-power/low-power-design/power-consumption/)
