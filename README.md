@@ -23,7 +23,7 @@
 ## Βήμα 2ο:
 
 ### 1.
-Υλοποίησαμε ένα function σε fish shell (βρίσκεται στο (![script]).
+Υλοποίησαμε ένα function σε fish shell βρίσκεται στο ![script](https://github.com/arckokap/ArchLab3/blob/main/script).
 
 Υπενθυμίζουμε τα χαρακτηριστικά των CPUs που σχεδιάσαμε.
 
